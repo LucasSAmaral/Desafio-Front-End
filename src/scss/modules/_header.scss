@@ -1,12 +1,13 @@
 header {
     background-color: #660099;
     height: 60px;
+    padding: 20px 10px;
+    box-sizing: border-box;
 }
 
 .header {
 
     &__container {
-        padding: 20px 10px;
         max-width: 344px;
         margin: 0 auto;
     }

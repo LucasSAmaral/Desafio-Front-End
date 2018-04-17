@@ -3,10 +3,11 @@
 
 header {
   background-color: #660099;
-  height: 60px; }
+  height: 60px;
+  padding: 20px 10px;
+  box-sizing: border-box; }
 
 .header__container {
-  padding: 20px 10px;
   max-width: 344px;
   margin: 0 auto; }
 .header__menu--icon {
