@@ -1,0 +1,21 @@
+* {
+  margin: 0; }
+
+header {
+  background-color: #660099;
+  height: 75px; }
+
+.header__menu--icon {
+  background-image: url(/src/img/hamburguer-menu-icon.png);
+  width: 18px;
+  height: 14px;
+  display: inline-block;
+  float: left; }
+.header__title {
+  color: #FFFFFF;
+  font-family: "Open Sans",sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px; }
+
+/*# sourceMappingURL=application.css.map */

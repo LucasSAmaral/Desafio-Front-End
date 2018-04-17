@@ -4,6 +4,10 @@
   "description": "Desafio para desenvolvedores front-end",
   "dependencies": {},
   "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "json-server": "^0.12.1"
   },
   "scripts": {
