@@ -54,7 +54,8 @@ header {
     border-left: 7px solid #660099; }
   .list-item__wrapper {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 14px; }
   .list-item__content--top {
     color: #4F4F4F;
     font-size: 13px;
