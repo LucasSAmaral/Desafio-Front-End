@@ -62,7 +62,8 @@ header {
 .list-item {
   max-width: 312px;
   width: 100%;
-  height: 56px;
+  min-height: 56px;
+  height: auto;
   border-radius: 5px;
   margin: 0 auto;
   box-shadow: 0px 0 5px 0px #888888;
@@ -80,25 +81,28 @@ header {
     border-left: 7px solid #79C126; }
   .list-item.turbine-suas-vendas {
     border-left: 7px solid #660099; }
-  .list-item.hide {
-    display: none; }
   .list-item__wrapper {
     display: flex;
     flex-direction: column;
     margin-top: 14px; }
-  .list-item__content--top {
-    color: #4F4F4F;
-    font-size: 13px;
-    font-weight: bold;
+  .list-item__content {
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
+    color: #828282;
     margin-bottom: 7px; }
-  .list-item__content--bottom {
-    color: #4F4F4F;
-    font-size: 11px;
-    font-family: "Open Sans", sans-serif; }
-  .list-item__content--title, .list-item__content--type {
-    float: left; }
-  .list-item__content--id, .list-item__content--date {
-    float: right; }
+    .list-item__content--top {
+      color: #4F4F4F;
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 7px; }
+    .list-item__content--bottom {
+      color: #4F4F4F;
+      font-size: 11px;
+      font-family: "Open Sans", sans-serif; }
+    .list-item__content--title, .list-item__content--type {
+      float: left; }
+    .list-item__content--id, .list-item__content--date {
+      float: right; }
 
 /*# sourceMappingURL=application.css.map */
