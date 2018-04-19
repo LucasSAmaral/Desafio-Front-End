@@ -105,7 +105,9 @@ header {
         justify-content: center; } }
     @media (min-width: 1328px) {
       .list-item__wrapper {
-        justify-content: left; } }
+        justify-content: left;
+        padding: 15px 15px 0 15px;
+        width: 1366px; } }
   .list-item__content {
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
