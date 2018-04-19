@@ -1,10 +1,10 @@
 # Desafio Front-End
 
-# Para rodar a aplicação:
+### Para rodar a aplicação:
 
-## Para instalar as dependências: ``npm install``;
-## Para iniciar o json-server: ``npm run start``;
-## Para rodar a aplicação: ``grunt dev``;
+### Para instalar as dependências: ``npm install``;
+### Para iniciar o json-server: ``npm run start``;
+### Para rodar a aplicação: ``grunt dev``;
 
 Você acaba de receber sua primeira tarefa: 😎
 **Implementar a Listagem de Comunicados**
