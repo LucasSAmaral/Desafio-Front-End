@@ -1,8 +1,9 @@
 # Desafio Front-End
 
-### Para instalar as dependências: ``npm install``;
-### Para iniciar o json-server: ``npm run start``;
-### Para rodar a aplicação: ``grunt dev``;
+### Para clonar o repositório: ``git clone https://github.com/LucasSAmaral/Desafio-Front-End.git``
+### Para instalar as dependências: ``npm install``
+### Para iniciar o json-server: ``npm run start``
+### Para rodar a aplicação: ``grunt dev``
 
 # 
 
