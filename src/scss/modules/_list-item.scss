@@ -29,6 +29,10 @@
         border-left: 7px solid #660099;
     }
 
+    &.hide {
+        display: none;
+    }
+
     &__wrapper {
         display: flex;
         flex-direction: column;

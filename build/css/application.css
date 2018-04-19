@@ -80,6 +80,8 @@ header {
     border-left: 7px solid #79C126; }
   .list-item.turbine-suas-vendas {
     border-left: 7px solid #660099; }
+  .list-item.hide {
+    display: none; }
   .list-item__wrapper {
     display: flex;
     flex-direction: column;

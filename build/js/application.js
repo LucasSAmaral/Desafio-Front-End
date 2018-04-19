@@ -1,9 +1,10 @@
-new Vue({
+var app = new Vue({
     el: '#app',
     data () {
         return {
             comunicados: null,
-            tipoComunicados: null
+            tipoComunicados: null,
+            tipo: -1
         }
     },
 
