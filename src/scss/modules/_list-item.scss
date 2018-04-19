@@ -5,12 +5,13 @@
     height: 56px;
     border-radius: 5px;
     margin: 0 auto;
-    box-shadow: 0px 0 10px 0px #888888;
+    box-shadow: 0px 0 5px 0px #888888;
     box-sizing: border-box;
     padding: 10px;
     display: flex;
     flex-direction: column;
     margin-bottom: 14px;
+    background-color: #ffffff;
 
     &.informativos {
         border-left: 7px solid #FF9900;

@@ -2,5 +2,10 @@
     margin: 0;
 }
 
+main {
+    background-color: #E5E5E5;
+}
+
 @import "modules/header";
+@import "modules/category";
 @import "modules/list-item";

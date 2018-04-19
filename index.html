@@ -19,8 +19,15 @@
             </div>
         </header>
 
-        <main>
-            <div id="app" class="list-item__wrapper">
+        <main id="app">
+            <div class="category__wrapper">
+                <span class="category__title">Categorias</span>
+
+                <div class="category__button--content">
+                    <button class="category__button" v-for="tipoComunicado in tipoComunicados">{{tipoComunicado.name}}</button>
+                </div>
+            </div>
+            <div class="list-item__wrapper">
                 <div v-for="comunicado in comunicados">
                     <div class="list-item" v-bind:class="{'informativos': comunicado.type == 0, 'forca-de-vendas': comunicado.type == 1, 'fique-ligado': comunicado.type == 2, 'turbine-suas-vendas': comunicado.type == 3}">
                         <div class="list-item__content--top">
