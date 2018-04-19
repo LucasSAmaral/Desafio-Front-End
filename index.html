@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="list-item__wrapper">
-                <div v-for="comunicado in comunicados" >
+                <div class="list-item__container" v-for="comunicado in comunicados" >
                     <div class="list-item" v-on:click="comunicado.seen = !comunicado.seen" v-show="tipo == -1 || comunicado.type == tipo" v-bind:class="{'informativos': comunicado.type == 0, 'forca-de-vendas': comunicado.type == 1, 'fique-ligado': comunicado.type == 2, 'turbine-suas-vendas': comunicado.type == 3}">
                         <div class="list-item__content--top">
                             <span class="list-item__content--title">{{comunicado.title}}</span>

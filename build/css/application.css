@@ -13,6 +13,9 @@ header {
 .header__container {
   max-width: 344px;
   margin: 0 auto; }
+  @media (min-width: 1024px) {
+    .header__container {
+      max-width: 600px; } }
 .header__menu--icon {
   background-image: url(/src/img/hamburguer-menu-icon.png);
   width: 18px;
@@ -37,6 +40,9 @@ header {
 
 .category__wrapper {
   padding: 15px 15px 0 15px; }
+  @media (min-width: 550px) {
+    .category__wrapper {
+      text-align: center; } }
 .category__title {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
@@ -56,6 +62,9 @@ header {
     overflow-y: hidden;
     white-space: nowrap;
     margin-top: 6px; }
+    @media (min-width: 550px) {
+      .category__button--content {
+        overflow-x: inherit; } }
   .category__button:last-child {
     margin-right: 0; }
 
@@ -73,6 +82,10 @@ header {
   flex-direction: column;
   margin-bottom: 14px;
   background-color: #ffffff; }
+  @media (min-width: 1024px) {
+    .list-item {
+      width: 312px;
+      cursor: pointer; } }
   .list-item.informativos {
     border-left: 7px solid #FF9900; }
   .list-item.forca-de-vendas {
@@ -85,6 +98,14 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 14px; }
+    @media (min-width: 1024px) {
+      .list-item__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; } }
+    @media (min-width: 1328px) {
+      .list-item__wrapper {
+        justify-content: left; } }
   .list-item__content {
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
@@ -104,5 +125,8 @@ header {
       float: left; }
     .list-item__content--id, .list-item__content--date {
       float: right; }
+  @media (min-width: 1024px) {
+    .list-item__container {
+      margin-right: 20px; } }
 
 /*# sourceMappingURL=application.css.map */
