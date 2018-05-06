@@ -10,13 +10,13 @@ var app = new Vue({
 
     mounted () {
         axios
-            .get('/endpoints/db.json')
+            .get('/endpoints/comunicados')
             .then(response => (this.comunicados = response.data))
             .catch(error => console.log(error));
 
 
         axios
-            .get('/endpoints/db.json')
+            .get('/endpoints/tiposComunicados')
             .then(response => (this.tipoComunicados = response.data))
             .catch(error => console.log(error));
     }
