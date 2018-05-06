@@ -10,13 +10,13 @@ var app = new Vue({
 
     mounted () {
         axios
-            .get('https://listagem-de-comunicados.netlify.com/endpoints/comunicados.json')
+            .get('http://localhost:84/comunicados.json')
             .then(response => (this.comunicados = response.data))
             .catch(error => console.log(error));
 
 
         axios
-            .get('https://listagem-de-comunicados.netlify.com/endpoints/tiposComunicados.json')
+            .get('http://localhost:84/tiposComunicados.json')
             .then(response => (this.tipoComunicados = response.data))
             .catch(error => console.log(error));
     }
