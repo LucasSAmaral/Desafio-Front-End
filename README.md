@@ -1,6 +1,6 @@
-# Desafio Front-End
+# Listagem de Comunicados
 
-### Para clonar o repositório: ``git clone https://github.com/LucasSAmaral/Desafio-Front-End.git``
+### Para clonar o repositório: ``git clone https://github.com/LucasSAmaral/Listagem-de-Comunicados.git``
 ### Para instalar as dependências: ``npm install``
 ### Para iniciar o json-server: ``npm run start``
 ### Para rodar a aplicação: ``grunt dev``
